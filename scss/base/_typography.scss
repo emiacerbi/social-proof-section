@@ -56,3 +56,31 @@ body {
         
     }
 }
+
+
+
+
+@media (min-width: 1000px) {
+
+    body {
+        background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    }
+
+    .container {
+
+        .header {
+            
+            &__title {
+                font-size: 3rem;
+
+            }
+
+            &__subtitle {
+                text-align: left;
+                font-size: .9rem;
+                line-height: 1.6;
+            }
+        }
+
+    }
+}
