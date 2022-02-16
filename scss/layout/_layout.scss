@@ -129,17 +129,25 @@ body {
                 align-items: center;
                 justify-content: space-between;
                 
-
+                
+                cursor: pointer;
+                transition: .3s ease-in-out;
+                
+                
                 &__star {
                     width: 17px;
                     height: 16px;
                 }
-
+                
                 &__text {
                     margin: 0;
                 }
             }
-
+            
+            &__rating:hover {
+                transform: translateX(-5%);
+            }
+            
             &__rating:nth-child(1) {
                 margin-top: .5rem;
                 position: relative;
