@@ -135,7 +135,7 @@ body {
 }
 body {
   padding: 3rem 1.5rem;
-  background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+  background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -206,7 +206,7 @@ body {
 
 @media (min-width: 1115px) {
   body {
-    background-image: url(/images/bg-pattern-top-desktop.svg);
+    background-image: url(./images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
   }
 
@@ -272,6 +272,11 @@ body {
   .container .reviews__list__review {
     min-width: 350px;
     margin: 0;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .container .reviews__list__review:hover {
+    transform: translateY(-5%);
   }
   .container .reviews__list__review:nth-child(2) {
     position: relative;
